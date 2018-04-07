@@ -52,7 +52,7 @@ Walkthrough: ![](https://github.com/raleycs/CodePath-Week-8/blob/master/CSRF.gif
 
 Vulnerability #2: IDOR
 
-In the tab that allows you to access all the employees, a user can change the id in the URL to access a page of an employee that he shouldn't have access to.
+In the tab that allows you to access all the employees, a user can change the id in the URL to access a page of an employee that he shouldn't have access to. The other websites checked for this by redirecting web traffic whenever a user tries to access a page with an id that they shouldn't be seeing.
 
 Walkthrough: ![](https://github.com/raleycs/CodePath-Week-8/blob/master/IDOR.gif)
 
