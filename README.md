@@ -48,13 +48,13 @@ Vulnerability #1: CSRF
 
 A user can enter a malicious link in the feedback section in the "Contact Us" tab. Assuming that some sort of social engineering works and the admin clicks on the link, allowing for CSRF to occur.
 
-Walkthrough:
+Walkthrough: ![](https://github.com/raleycs/CodePath-Week-8/blob/master/CSRF.gif)
 
 Vulnerability #2: IDOR
 
 In the tab that allows you to access all the employees, a user can change the id in the URL to access a page of an employee that he shouldn't have access to.
 
-Walkthrough:
+Walkthrough: ![](https://github.com/raleycs/CodePath-Week-8/blob/master/IDOR.gif)
 
 ## Notes
 
